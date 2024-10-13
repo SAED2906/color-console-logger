@@ -28,7 +28,7 @@ Object.freeze(Colors);
 /**
  * Logs a message to the console in the specified color.
  * If the color is not found, defaults to white.
- * If the message contains the word "error", it always prints in red (hidden bug).
+ * If the message contains the word "error", it always prints in red.
  * @param {string} message - The message to be logged.
  * @param {string} color - The color in which to log the message.
  */
