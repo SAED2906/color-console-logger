@@ -10,12 +10,12 @@ const Colors = {
     MAGENTA: 'magenta',
     CYAN: 'cyan',
     WHITE: 'white',
-    gray: 'gray',
+    GRAY: 'gray',
     black: 'black',
     red: 'red',
     green: 'green',
     yellow: 'yellow',
-    BLUE: 'blue',
+    blue: 'blue',
     magenta: 'magenta',
     cyan: 'cyan',
     white: 'white',
@@ -28,7 +28,7 @@ Object.freeze(Colors);
 /**
  * Logs a message to the console in the specified color.
  * If the color is not found, defaults to white.
- * If the message contains the word "error", it always prints in red.
+ * If the message contains the word "error".
  * @param {string} message - The message to be logged.
  * @param {string} color - The color in which to log the message.
  */
